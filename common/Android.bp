@@ -24,7 +24,6 @@ android_app_import {
 	name: "NexusLauncherRelease",
 	owner: "pixel/launcher",
 	apk: "proprietary/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk",
-	overrides: ["Launcher3", "Launcher3QuickStep", "TrebuchetQuickStep"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -38,7 +37,6 @@ android_app_import {
 	name: "NexusLauncherReleaseTablet",
 	owner: "pixel/launcher",
 	apk: "proprietary/system_ext/priv-app/NexusLauncherRelease/NexusLauncherReleaseTablet.apk",
-	overrides: ["Launcher3", "Launcher3QuickStep", "TrebuchetQuickStep", "NexusLauncherRelease"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {

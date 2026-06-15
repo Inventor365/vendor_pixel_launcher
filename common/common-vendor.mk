@@ -8,12 +8,13 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/pixel/launcher/common/proprietary/product/etc/default-permissions/default-permissions_pixelweather.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions_pixelweather.xml
 
+WITH_PIXEL_LAUNCHER ?= true
+ifeq ($(WITH_PIXEL_LAUNCHER),true)
 PRODUCT_PACKAGES += \
-    WeatherPixelPrebuilt_10006113 \
     NexusLauncherRelease
 
 ifeq ($(TARGET_IS_TABLET),true)
-
 PRODUCT_PACKAGES += \
     NexusLauncherReleaseTablet
+endif
 endif
