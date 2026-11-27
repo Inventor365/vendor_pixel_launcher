@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="taskbar_phone_size">@*android:dimen/navigation_bar_frame_height</dimen>
+    <dimen name="taskbar_phone_rounded_corner_content_margin">
+        @*android:dimen/rounded_corner_content_padding
+    </dimen>
+    <item type="dimen" format="float" name="config_wallpaperMaxScale">@*android:dimen/config_wallpaperMaxScale</item>
+    <dimen name="taskbar_size">@*android:dimen/taskbar_frame_height</dimen>
+    <dimen name="taskbar_stashed_size">@*android:dimen/taskbar_stashed_size</dimen>
+</resources>
