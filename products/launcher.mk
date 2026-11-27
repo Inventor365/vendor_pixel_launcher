@@ -23,6 +23,10 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/pixel/launcher/prebuilt/etc/pixel_launcher.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_launcher.xml \
     vendor/pixel/launcher/prebuilt/etc/preinstalled-packages-product-pixel_launcher.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel_launcher.xml \
-	vendor/pixel/launcher/prebuilt/etc/privapp-permissions-pixel_launcher-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-pixel_launcher-se.xml
+    vendor/pixel/launcher/prebuilt/etc/pixel_experience_2025.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2025.xml \
+    vendor/pixel/launcher/prebuilt/etc/pixel_experience_2025_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2025_midyear.xml \
+    vendor/pixel/launcher/prebuilt/etc/pixel_experience_2026.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2026.xml \
+    vendor/pixel/launcher/prebuilt/etc/pixel_experience_2026_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2026_midyear.xml \
+    vendor/pixel/launcher/prebuilt/etc/privapp-permissions-pixel_launcher-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-pixel_launcher-se.xml
 
 endif

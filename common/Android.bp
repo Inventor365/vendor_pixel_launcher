@@ -29,6 +29,10 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
+	optional_uses_libs: [
+		"androidx.window.extensions",
+		"androidx.window.sidecar",
+	],
 	privileged: true,
 	system_ext_specific: true,
 }
@@ -42,6 +46,10 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
+	optional_uses_libs: [
+		"androidx.window.extensions",
+		"androidx.window.sidecar",
+	],
 	privileged: true,
 	system_ext_specific: true,
 }
